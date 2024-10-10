@@ -1,0 +1,45 @@
+=======================================
+           MyShell User Manual
+=======================================
+AUTHOR : Shane Whelan
+Student number : 22375866
+
+STATEMENT OF NON-PLAGIARISM : I hereby declare that all information in this assignment has been obtained and presented in accordance with academic rules and ethical conduct.
+
+REFRENCES : https://www.gnu.org/software/bash/manual/bash.html, https://brennan.io/2015/01/16/write-a-shell-in-c/, https://homepages.uc.edu/~thomam/Intro_Unix_Text/IO_Redir_Pipes.html#:~:text=I%2FO%20redirection%20is%20accomplished,is%20also%20considered%20a%20file
+
+
+1. Introduction
+   MyShell is a command-line shell program that provides a user-friendly interface for executing commands and managing processes.
+
+2. Command Syntax
+   MyShell supports the following command syntax:
+   - Command: A command is a program or script that can be executed by MyShell.
+   - Arguments: Arguments are additional inputs provided to a command.
+   - Options: Options modify the behavior of a command.
+
+3. Built-in Commands
+   MyShell provides the following built-in commands.
+   - dir <arguments>: this commmand lists the current working directory if no arguments are provided, otherwise it will list the contents of the specified directory.
+   - environ : this command lists all of the current enviorement variables.
+   - echo <arguments> : this command prints out the given argument in the shell.
+   - pause : this command pauses the shell until there is another input given.
+   - pwd : this comand prints the current working directory.
+   - exit : this command exits the shell.
+
+4. External Commands
+   MyShell can also execute external commands available in the system. Simply enter the command name followed by any arguments or options.
+
+5. Input/Output Redirection
+   MyShell supports input/output redirection using the following symbols:
+   - `>`: Redirects the output of a command to a file, overwriting its contents.
+   - `>>`: Redirects the output of a command to a file, appending to its contents.
+   - `<`: Redirects the input of a command from a file.
+
+6. Background Execution
+   To run a command in the background, append an ampersand (&) at the end of the command. This allows you to continue using MyShell while the command is running.
+
+7. Exiting MyShell
+   To exit MyShell, use the `exit` command or press Ctrl + C.
+
+=======================================
